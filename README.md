@@ -10,6 +10,6 @@ Instructions for loading in MongoDB:
 * Start your MongoDB instance
 * Navigate to `/pokemonData/pokemon.json` in your terminal.
 * Run the following command:
-`mongoimport -d pokemon -c pokemons --jsonArray < seed.json`
+`mongoimport -d pokemon -c pokemons --jsonArray < pokemon.json`
 * Launch your MongoDB shell by running `mongo` in your terminal.
 * Run the following commands to confirm the data was loaded:
