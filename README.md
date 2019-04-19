@@ -21,5 +21,8 @@ Instructions for loading in MongoDB:
 &nbsp;&nbsp;&nbsp;&nbsp;` db.pokemons.find().pretty() ` 
 
 **Useful Cleanup Command**
-`mongo --quiet --eval 'db.getMongo().getDBNames().forEach(function(i){db.getSiblingDB(i).dropDatabase()})'`
+```
+mongo --quiet --eval 'db.getMongo().getDBNames().forEach(function(i){db.getSiblingDB(i).dropDatabase()})'
+```
+
 source: [answer by kev on MongoDB drop every database](https://stackoverflow.com/a/16908246)
